@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+body {
+    background-color: lightblue;
+}
+</style>
+
+<title>Linux Reference Page</title>
+
+<link href="reference.css" rel="stylesheet" type="text/css" />
+    </head>  
+        <body>
+        
+<h1>Linux Commands Reference Page</h1>
+
+<div class="tabledata tableheader">
+<table class="center">
+      <tr>
+        <th>Element Name</th>
+        <th>Start Tag</th>
+        <th>End Tag</th>
+        <th>Example</th>
+      </tr>
+      <tr>
+        <td><a href="#html">HTML</a></td>
+        <td>&lt;html&gt;</td>
+        <td>&lt;/html&gt;</td>
+        <td>no example</td>
+      </tr>
+      <tr>
+        <td><a href="#headers">Headers</a></td>
+        <td>&lt;head&gt;</td>
+        <td>&lt;/head&gt;</td>
+        <td>no example</td>
+      </tr>
+      <tr>
+        <td><a href="#title">Title</a></td>
+        <td>&lt;title&gt;</td>
+        <td>&lt;/title&g;t</td>
+        <td>no example</td>
+      </tr>
+      <tr>
+        <td><a href="#body">Body</a></td>
+        <td>&lt;body&gt;</td>
+        <td>&lt;/body&gt;</td>
+        <td>no example</td>
+      </tr>
+      <tr>
+        <td><a href="#headings">Headings</a></td>
+        <td>&lt;h1&gt;</td>
+        <td>&lt;/h1&gt;</td>
+        <td>&lt;h1&gt;HEADING&lt;/h1&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#paragraph">Paragraph</a></td>
+        <td>&lt;p&gt;</td>
+        <td>&lt;/p&gt;</td>
+        <td>&lt;p&gt;This is a paragraph&lt;/p&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#linebreaks">Line Breaks</a></td>
+        <td>&lt;br&gt;</td>
+        <td>none</td>
+        <td>This is&lt;br&gt;a paragraph&lt;br&gt; with line breaks.</td>
+      </tr>
+      <tr>
+        <td><a href="#lines">Lines</a></td>
+        <td>&lt;hr&gt;</td>
+        <td>none</td>
+        <td>Text<br>&lt;hr&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#comments">Comments</a></td>
+        <td>&lt;!--</td>
+        <td>--&gt;</td>
+        <td>&lt;!--This is a comment.--&gt;<br>&lt;p&gt;This is a paragraph&lt;/p&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#links">Links</a></td>
+        <td>&lt;a href=""&lt;/a&gt</td>
+        <td>none</td>
+        <td>&lt;a href="https://www.w3schools.com/"&gt;W3schools&lt;/a&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#images">Images</a></td>
+        <td>&lt;img src="" alt=""&gt;</td>
+        <td>none</td>
+        <td>&lt;img src="https://catalin.red/dist/uploads/2011/01/css3-html5-logo.png" alt="HTML Logo"&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#lists">Lists</a></td>
+        <td>&lt;ol (or) ul&gt;</td>
+        <td>&lt;/ol (or) ul&gt;</td>
+        <td>&lt;ol (or) ul&gt;<br>&lt;li&gt;Coffee&lt;/li&gt;<br>&lt;li&gt;Tea&lt;/li&gt;<br>&lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ol (or) ul&gt</td>
+      </tr>
+      <tr>
+        <td><a href="#table">Tables</a></td>
+        <td>&lt;table&gt;</td>
+        <td>&lt;/table&gt;</td>
+        <td>&lt;table&gt;<br>&lt;tr&gt;<br>&lt;th&gt;Firstname&lt;/th&gt;<br>&lt;th&gt;Lastname&lt;/th&gt;<br>&lt;th&gt;Age&lt;/th&gt;<br>&lt;/tr&gt<br>&lt;tr&gt<br>&lt;td&gtJill&lt;/td&gt<br>&lt;td&gtSmith&lt;/td&gt<br>&lt;td&gt50&lt;/td&gt<br>&lt;/tr&gt<br>&lt;tr&gt<br>&lt;td&gtEve&lt;/td&gt<br>&lt;td&gtJackson&lt;/td&gt<br>&lt;td&gt94&lt;/td&gt<br>&lt;/tr&gt<br>&lt;/table&gt</td>
+      </tr>
+      <tr>
+        <td><a href="#blocks">Blocks</a></td>
+        <td>&lt;div&gt;</td>
+        <td>&lt;/div&gt;</td>
+        <td>&lt;div&gt;My&lt;/div&gt;<br>&lt;div&gt;Name&lt;/div&gt;</td>
+      </tr>
+      </table>
+            </div>
+
+
+    
+
+    
+    <h2 id="html">HTML</h2>
+    <h3>Description</h3>
+    <p>Hypertext Markup Language is the standard markup language for creating web pages and web applications. With Cascading Style Sheets and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.</p>
+    <h3>Syntax</h3>
+    <p>&lt;!DOCTYPE html&gt; &lt; html &gt;</p>
+    <a href ="https://www.w3schools.com/tags/tag_html.asp">W3 schools</a> 
+
+    
+    <hr>
+    
+    <h2 id="header">Headers</h2>
+    <h3>Description</h3>
+    <p>A header is used as a title to display the topic or subject</p>
+    <h3>Syntax</h3>
+    <p>&lt;head&gt;</p>
+    <a href ="https://www.w3schools.com/tags/tag_head.asp">W3 schools</a>
+
+
+
+    <hr>
+    
+    <h2 id="title">Title</h2>
+    <h3>Description</h3>
+    <p>The title is like a bigger heading and is the name of the certain file</p>
+    <h3>Syntax</h3>
+    <p>&lt;title&gt;</p>
+    <a href ="https://www.w3schools.com/tags/tag_title.asp">W3 schools</a>
+
+    
+    
+    <h2 id="body">Body</h2>
+    <h3>Description</h3>
+    <p>A body is a paragraph body which is used to type paragraphs with</p>
+    <h3>Syntax</h3>
+    <p>the syntax of a paragraph element</p>
+    <h3>Example</h3>
+    <p>This is a body paragraph</p>
+    <a href ="https://www.w3schools.com/tags/tag_body.asp">W3 schools</a>
+    
+    <hr>
+    
+    <h2 id="headings">Headings</h2>
+    <h3>Description</h3>
+    <p>Headings are like the subtitles for a certain subject</p>
+    <h3>Syntax</h3>
+    <p>&lt;h1&gt; &lt;h2&gt; etc.</p>
+    <h3>Example</h3>
+    <h2> This is a second heading</h2>
+    <a href ="https://www.w3schools.com/tags/tag_hn.asp">W3 schools</a>
+    
+    <hr>
+    
+    <h2 id="paragraph">Paragraph</h2>
+    <h3>Description</h3>
+    <p>This is used to create a writing space on a page</p>
+    <h3>Syntax</h3>
+    <p>&lt;p&gt;</p>
+    <h3>Example</h3>
+    <p>This is a paragraph</p>
+    <a href ="https://www.w3schools.com/tags/tag_p.asp">W3 schools</a>
+    
+    <hr>
+    
+    <h2 id="linebreak">Line Breaks</h2>
+    <h3>Description</h3>
+    <p>Line breaks are used to create space in between paragraphs</p>
+    <h3>Syntax</h3>
+    <p>&lt;br&gt;</p>
+    <a href ="https://www.w3schools.com/tags/tag_br.asp">W3 schools</a>
+    
+    <hr>
+
+    <h2 id="lines">Lines</h2>
+    <h3>Description</h3>
+    <p>Lines are used as dividers in between a page</p>
+    <h3>Syntax</h3>
+    <p>&lt;hr&gt;</p>
+    <h3>Example</h3>
+    <hr>
+     
+    <hr>
+    
+    <h2 id="comments">Comments</h2>
+    <h3>Description</h3>
+    <p>Comments are used to comment about certain features on the page wether it be the page or its coding</p>
+    <h3>Syntax</h3>
+    <p>&lt;!-- --&
+    <hr>
+    
+    <h2 id="links">Links</h2>
+    <h3>Description</h3>
+    <p>Links are used to direct a user to another page on the internet</p>
+    <h3>Syntax</h3>
+    <p>&lt;a&gt;</p>
+    <h3>Example</h3>
+    <href>https://alexhecker.github.io/html-reference</href>
+    <a href ="https://www.w3schools.com/tags/tag_a.asp">W3 schools</a>
+    
+    <hr>
+    
+    <h2 id="images">Images</h2>
+    <h3>Description</h3>
+    <p>Images are pictures that a user can view</p>
+    <h3>Syntax</h3>
+    <p>&lt;img&gt;</p>
+    <h3>Example</h3>
+    
+    <hr>
+    
+    <h2 id="lists">Lists</h2>
+    <h3>Description</h3>
+    <p>Lists are used to list a certain task or certain items like a shopping list</p>
+    <h3>Syntax</h3>
+    <p>&lt;ul&gt; &lt;ol&gt; &lt;li&gt;</p>
+    <h3>Example</h3>
+    <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+    </ul>
+    
+    <hr>
+    
+    <h2 id="table">Tables</h2>
+    <h3>Description</h3>
+    <p>Tables are used to sort out data and display it in a way people can read and analyze the data easily.</p>
+    <h3>Syntax</h3>
+    <p>&lt;table&gt; &lt;tr&gt; &lt;th&gt; &lt;td&gt;</p>
+    <h3>Example</h3>
+    
+    <table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+    
+
+    
+    <hr>
+    
+    <h2 id="blocks">Blocks</h2>
+    <h3>Description</h3>
+    <p>A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can)</p>
+    <h3>Syntax</h3>
+    <p>&lt;div&gt;</p>
+    <h3>Example</h3>
+    <div>Hello</div>
+    <div>World</div>
+   
+    
+    
+
+  </body>
+</html>
